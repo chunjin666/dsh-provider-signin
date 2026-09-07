@@ -30,11 +30,13 @@ host 侧 /api/provider-signin/*  (loopback 栅栏)
 
 ## 安装
 
+Shipped web 不挂 `authorization`。这个 bundle 会一起 insert `@deepseek-ai/dsh-authorization` 和本插件。
+
 ```sh
-dsh plugin --profile <name> add https://github.com/chunjin666/dsh-provider-signin
+dsh plugin --profile web add link:/path/to/dsh-provider-signin
 ```
 
-或安装 npm 包：`@linxin666/dsh-provider-signin`。
+或 npm 包名：`dsh-provider-signin`。
 
 ## 开发
 

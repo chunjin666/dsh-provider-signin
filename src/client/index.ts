@@ -3,7 +3,7 @@
  * llm-pi-ai provider card on the Models settings page. The seat talks to the
  * host relay over same-origin /api/provider-signin/* routes; nothing renders
  * for providers whose flow offers no OAuth method.
- * @module @linxin666/dsh-provider-signin/client
+ * @module dsh-provider-signin/client
  */
 
 import type { Context as ClientContext } from '@deepseek-ai/cordis'

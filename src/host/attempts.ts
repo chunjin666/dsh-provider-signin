@@ -8,7 +8,7 @@
  * Relaying is deliberately HTTP-shaped: the browser polls a snapshot, answers
  * a pending prompt with one POST, and cancels with another. No streaming
  * infrastructure, matching the rest of the dsh-web family's host routes.
- * @module @linxin666/dsh-provider-signin/host/attempts
+ * @module dsh-provider-signin/host/attempts
  */
 
 import { AuthorizationDeclinedError } from '@deepseek-ai/dsh-authorization'

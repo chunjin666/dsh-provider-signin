@@ -1,7 +1,7 @@
 /**
  * Same-origin client for the sign-in relay. Every method resolves; transport
  * failures become typed results the card renders as a banner.
- * @module @linxin666/dsh-provider-signin/client/api
+ * @module dsh-provider-signin/client/api
  */
 
 import type { AttemptView, FlowView, RecordView } from '../core/types.ts'

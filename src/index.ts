@@ -12,7 +12,7 @@
  *
  * The seam owns the conversation; this half only carries notices and prompts
  * between it and the browser. Only keys under `llm-pi-ai/` are addressable.
- * @module @linxin666/dsh-provider-signin
+ * @module dsh-provider-signin
  */
 
 import type { Context } from '@deepseek-ai/cordis'
@@ -31,7 +31,7 @@ export const name = 'dsh-provider-signin'
 /** Services the relay needs: route registration plus the two seams. */
 export const inject = ['webServer', 'authorization', 'credentials']
 
-export const apply = mountOnce('@linxin666/dsh-provider-signin', (ctx: Context): void => {
+export const apply = mountOnce('dsh-provider-signin', (ctx: Context): void => {
   const authorization = ctx.authorization
   const credentials = ctx.credentials
   const store = new AttemptStore()

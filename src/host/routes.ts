@@ -2,7 +2,7 @@
  * The loopback-fenced HTTP routes that carry authorization attempts between
  * the browser card and the host authorization seam. The route half validates
  * addressing (scope + known attempt), the store owns semantics.
- * @module @linxin666/dsh-provider-signin/host/routes
+ * @module dsh-provider-signin/host/routes
  */
 
 import type { IncomingMessage, ServerResponse } from 'node:http'

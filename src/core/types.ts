@@ -1,7 +1,7 @@
 /**
  * Wire-safe types shared by the host relay routes and the browser card. Free
  * of node and cordis imports so the client bundle can consume them.
- * @module @linxin666/dsh-provider-signin/core/types
+ * @module dsh-provider-signin/core/types
  */
 
 /** One registered authorization flow as the card renders it. */

@@ -1,7 +1,7 @@
 /**
  * Card copy for the provider sign-in seats. Chinese first: the family's
  * primary audience, with English alongside.
- * @module @linxin666/dsh-provider-signin/client/locales
+ * @module dsh-provider-signin/client/locales
  */
 
 /** Locale namespace owned by this plugin. */

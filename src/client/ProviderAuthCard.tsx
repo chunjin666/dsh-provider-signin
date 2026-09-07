@@ -3,7 +3,7 @@
  * attempt panel (notices, prompts, cancel) for one llm-pi-ai provider row.
  * Renders nothing for rows whose flow offers no OAuth method — the core
  * editor already covers API-key entry.
- * @module @linxin666/dsh-provider-signin/client/ProviderAuthCard
+ * @module dsh-provider-signin/client/ProviderAuthCard
  */
 
 import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react'

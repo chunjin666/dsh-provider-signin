@@ -1,5 +1,5 @@
 {
-  "name": "@linxin666/dsh-provider-signin",
+  "name": "dsh-provider-signin",
   "description": "Provider sign-in seats for the dsh web GUI Models settings page: renders the authorization flows llm-pi-ai registers (ChatGPT, SuperGrok, and every other OAuth login) into each provider card, with a loopback-fenced attempt relay that carries notices and prompts between the browser and the host authorization seam",
   "version": "0.1.0",
   "license": "MIT",
